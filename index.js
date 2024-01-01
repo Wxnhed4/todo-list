@@ -1,7 +1,7 @@
 const ul = document.querySelector(".ul");
 const btn = document.querySelector(".btn");
 const inp = document.querySelector(".inp");
-
+alert("hi")
 btn.addEventListener("click" , () => {
   let li = document.createElement("li");
   li.innerHTML = `${inp.value}`;
